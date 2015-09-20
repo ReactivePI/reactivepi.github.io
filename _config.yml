@@ -1,0 +1,40 @@
+name: ReactivePI
+description: Control your raspberry PI with Java, Scala and Akka
+meta_description: "Control your raspberry PI with Java, Scala and Akka"
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://reactivepi.github.io'
+google_analytics: 'UA-19850882-5'
+disqus: true
+disqus_shortname: 'reactivepi'
+
+# Details for the RSS feed generator
+url:            'http://reactivepi.github.io'
+author:         'Willem Meints'
+authorTwitter:  '@willem_meints'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post

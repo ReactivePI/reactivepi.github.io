@@ -1,0 +1,10 @@
+<nav class="main-nav">
+    {% if page.url != "/index.html" %}
+        <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Home </a>
+    {% endif %}
+
+    <a href="{{ site.baseurl }}about">About </a>
+    <a href="{{ site.baseurl }}documentation">Documentation </a>
+    <a href="https://github.com/reactivepi">Github </a>
+    <a class="cta" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+</nav>
